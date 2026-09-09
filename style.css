@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* --------------------- Undefined Section --------------------- */
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    flex: 1;
+    padding: 0px 230px 150px;
+}
+
+.white-bold-text {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 35px;
+    border-radius: 10px;    
+    border: 0;
+    font-weight: bold;
+}
+
+/* --------------------- First Section --------------------- */
+.first-section {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style-type: none;
+
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    color: #ced1d7;
+    text-decoration: none;
+}
+
+.text-div {
+    flex-basis: 450px;
+}
+
+.first-section h1 {
+    margin: 0; /*h1 crée automatiquement une marge vertical*/
+
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.first-section p {
+    font-size: 18px;
+    color: #ced1d7;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.first-section img {
+    height: 250px;
+    width: auto;
+}
+
+/* --------------------- Second Section --------------------- */
+.info-section h2 {
+    text-align: center;
+    margin: 50px;
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-section .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info .img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info {
+    text-align: center;
+    color: #1F2937;
+    flex-basis: 150px;
+}
+
+/* --------------------- Third Section --------------------- */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 320px;
+}
+
+.quote-section p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-section .author {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 10px;
+}
+
+/* --------------------- Fourth Section --------------------- */
+
+.action {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 150px;    
+    border-radius: 10px;
+}
+
+.action button {
+    font-size: 20px;
+    border: 3px solid #F9FAF8;
+}
+
+.action p {
+    color: #f9faf89d;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* --------------------- Footer --------------------- */
+
+.footer {
+    flex: 1;
+
+    background-color: #1F2937;
+    color: #ced1d7;
+    font-size: 18px;
+    padding: 50px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
